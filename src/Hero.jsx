@@ -19,7 +19,7 @@ function Hero() {
         <p className="hero-sub">
           A one-day build for engineers, designers, and researchers working at the
           intersection of AI and the real world — LiDAR, digital twins, robotics,
-          computer vision, civic infrastructure. Hosted by CYVL in Somerville.
+          computer vision, civic infrastructure. Hosted by Cyvl in Somerville.
         </p>
 
         <div className="hero-ctas">

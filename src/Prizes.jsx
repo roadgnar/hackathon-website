@@ -8,7 +8,7 @@ function Prizes() {
             <h2 className="section-title">$12,000 in cash, plus credits.</h2>
           </div>
           <p className="section-lede">
-            Awarded by a panel of CYVL engineers and outside judges. Prize money
+            Awarded by a panel of Cyvl engineers and outside judges. Prize money
             is split evenly across the four members of a winning team — we
             collect a W-9 from each builder on the day and pay everyone
             directly.
@@ -21,7 +21,7 @@ function Prizes() {
             <div className="name">Best overall build</div>
             <div className="amount"><span className="currency">$</span>8,000</div>
             <div className="perks">
-              Split four ways · CYVL follow-up call about ongoing data access · feature
+              Split four ways · Cyvl follow-up call about ongoing data access · feature
               writeup on cyvl.com
             </div>
           </div>

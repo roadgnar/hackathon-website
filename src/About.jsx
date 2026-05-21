@@ -10,7 +10,7 @@ function About() {
           <p className="section-lede">
             Most AI shipping today lives behind a chat box. We think the next decade
             is about the AI that touches asphalt, signs, scans, sensors, and street
-            networks. Come build it with us — using CYVL's LiDAR, digital twin, and
+            networks. Come build it with us — using Cyvl's LiDAR, digital twin, and
             geospatial APIs, plus credits from our sponsors.
           </p>
         </div>
@@ -20,7 +20,7 @@ function About() {
             <div className="num">01 / Real data</div>
             <h3>Production geospatial data, not toy datasets.</h3>
             <p>
-              Every team gets API access to CYVL's LiDAR point clouds, road imagery,
+              Every team gets API access to Cyvl's LiDAR point clouds, road imagery,
               pavement condition layers, and digital twin queries — the same surfaces
               powering city DOTs in production.
             </p>
@@ -40,7 +40,7 @@ function About() {
             <p>
               $12,000 in cash prizes, split evenly across each winning team's
               four members. The strongest teams get a follow-up conversation
-              with CYVL about ongoing project access.
+              with Cyvl about ongoing project access.
             </p>
           </div>
         </div>

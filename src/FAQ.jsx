@@ -2,11 +2,11 @@ function FAQ() {
   const items = [
     {
       q: "Who is this for?",
-      a: "Engineers, designers, and researchers working on AI for the physical world — robotics, geospatial, infra, civic tech, computer vision. You don't need a CYVL background; you do need to bring a laptop and ideas.",
+      a: "Engineers, designers, and researchers working on AI for the physical world — robotics, geospatial, infra, civic tech, computer vision. You don't need a Cyvl background; you do need to bring a laptop and ideas.",
     },
     {
       q: "Is it free?",
-      a: "Yes. Application-only, but free to attend. CYVL covers food, coffee, API access, and the venue.",
+      a: "Yes. Application-only, but free to attend. Cyvl covers food, coffee, API access, and the venue.",
     },
     {
       q: "What do I need to bring?",
@@ -18,7 +18,7 @@ function FAQ() {
     },
     {
       q: "Do I keep my IP?",
-      a: "Yes. Participants retain IP for what they build. CYVL gets a non-exclusive right to showcase your project publicly. The CYVL dataset is for use during the event only.",
+      a: "Yes. Participants retain IP for what they build. Cyvl gets a non-exclusive right to showcase your project publicly. The Cyvl dataset is for use during the event only.",
     },
     {
       q: "Will there be food?",

@@ -23,9 +23,9 @@ function Footer() {
       <div className="wrap">
         <div className="foot-top">
           <div className="brand-block">
-            <img src="assets/logo-black.png" alt="CYVL" />
+            <img src="assets/logo-black.png" alt="Cyvl" />
             <p>
-              CYVL is an AI-powered geospatial platform for public-works and
+              Cyvl is an AI-powered geospatial platform for public-works and
               infrastructure teams. The hackathon is our way of helping more people
               build things that touch the real world.
             </p>
@@ -41,7 +41,7 @@ function Footer() {
             </ul>
           </div>
           <div className="foot-col">
-            <h5>CYVL</h5>
+            <h5>Cyvl</h5>
             <ul>
               <li><a href="https://cyvl.com" target="_blank" rel="noreferrer">cyvl.com</a></li>
               <li><a href="mailto:hackathon@cyvl.ai">hackathon@cyvl.ai</a></li>
@@ -58,7 +58,7 @@ function Footer() {
           </div>
         </div>
         <div className="foot-bottom">
-          <div>© 2026 CYVL · Build the physical future</div>
+          <div>© 2026 Cyvl · Build the physical future</div>
           <div>v1.0 — Hackathon · 2026</div>
         </div>
       </div>

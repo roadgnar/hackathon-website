@@ -5,7 +5,7 @@ function Nav() {
       <div className="wrap nav-inner">
         <div className="nav-left">
           <a href="#top" className="brand">
-            <img src="assets/logo-black.png" alt="CYVL" />
+            <img src="assets/logo-black.png" alt="Cyvl" />
           </a>
           <nav className="nav-links">
             <a href="#about">About</a>
