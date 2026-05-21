@@ -5,13 +5,10 @@ function Prizes() {
         <div className="section-head">
           <div className="left">
             <div className="eyebrow"><span className="sq"></span>Prizes</div>
-            <h2 className="section-title">$12,000 in cash, plus credits.</h2>
+            <h2 className="section-title">$12,000 in cash prizes.</h2>
           </div>
           <p className="section-lede">
-            Awarded by a panel of Cyvl engineers and outside judges. Prize money
-            is split evenly across the four members of a winning team — we
-            collect a W-9 from each builder on the day and pay everyone
-            directly.
+            Awarded by a panel of Cyvl engineers and outside judges.
           </p>
         </div>
 
@@ -20,26 +17,16 @@ function Prizes() {
             <div className="rank">01 / Grand prize</div>
             <div className="name">Best overall build</div>
             <div className="amount"><span className="currency">$</span>8,000</div>
-            <div className="perks">
-              Split four ways · Cyvl follow-up call about ongoing data access · feature
-              writeup on cyvl.com
-            </div>
           </div>
           <div className="prize second">
             <div className="rank">02 / Runner-up</div>
             <div className="name">Second place</div>
             <div className="amount"><span className="currency">$</span>3,000</div>
-            <div className="perks">
-              Split four ways · feature mention on cyvl.com
-            </div>
           </div>
           <div className="prize third">
             <div className="rank">03 / Third</div>
             <div className="name">Third place</div>
             <div className="amount"><span className="currency">$</span>1,000</div>
-            <div className="perks">
-              Split four ways
-            </div>
           </div>
         </div>
 

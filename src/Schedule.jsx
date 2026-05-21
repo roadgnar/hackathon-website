@@ -1,16 +1,10 @@
 function Schedule() {
   const rows = [
-    { t: "09:00",  l: "Doors + breakfast",       d: "Bagels, coffee, name tags. Find your team.", tag: "" },
-    { t: "09:15",  l: "Kickoff",                 d: "Welcome, sponsors, judging criteria.",       tag: "Keynote", accent: true },
-    { t: "09:30",  l: "Build time begins",       d: "Heads down. Engineers on the floor for help.", tag: "" },
-    { t: "12:30",  l: "Lunch",                   d: "Boxed lunch, dietary options labeled.",     tag: "" },
-    { t: "15:30",  l: "Afternoon snacks",        d: "Coffee refresh.",                            tag: "" },
-    { t: "17:00",  l: "30-minute warning",       d: "Wrap up your demo, push your repo.",         tag: "" },
-    { t: "17:30",  l: "Submissions close",       d: "GitHub repo + one-page writeup.",            tag: "Hard stop", accent: true },
-    { t: "17:30",  l: "Presentations begin",     d: "Five minutes per team, two minutes Q&A.",    tag: "" },
-    { t: "19:30",  l: "Presentations end",       d: "Judges deliberate, builders unwind.",        tag: "" },
-    { t: "20:00",  l: "Winners announced",       d: "First, second, third. Group photo.",         tag: "Awards", accent: true },
-    { t: "20:30",  l: "Cleanup + close",         d: "Drinks across the street if you're up for it.", tag: "" },
+    { t: "9:00 AM",  l: "Doors open · Breakfast, onboarding & kickoff", d: "Coffee, bagels, name tags. Welcome and judging criteria.", tag: "Kickoff", accent: true },
+    { t: "9:30 AM",  l: "Build time begins",                            d: "Heads down. Engineers on the floor for help.",             tag: "" },
+    { t: "5:30 PM",  l: "Submissions close",                            d: "GitHub repo + one-page writeup. Hard stop.",               tag: "Hard stop", accent: true },
+    { t: "5:30 PM",  l: "Presentations begin",                          d: "Five minutes per team, two minutes Q&A.",                  tag: "" },
+    { t: "7:30 PM",  l: "Presentations end · Winners announced",        d: "First, second, third. Group photo.",                       tag: "Awards", accent: true },
   ];
 
   return (
@@ -22,9 +16,8 @@ function Schedule() {
             <h2 className="section-title">One day, one room, one build.</h2>
           </div>
           <p className="section-lede">
-            All times Eastern. We keep things tight so you can spend time building,
-            not sitting through programming. The 3:30 PM submission cutoff is a
-            hard stop — push your repo before then.
+            All times Eastern. Food and coffee throughout the day.
+            Submissions close at 5:30 PM sharp — push your repo before then.
           </p>
         </div>
 

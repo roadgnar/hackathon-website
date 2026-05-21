@@ -621,6 +621,7 @@ section.block.dark .eyebrow { color: rgba(255,255,255,0.55); }
 .sponsor-logo { height: 28px; width: auto; }
 .sponsor-logo.cyvl { height: 26px; }
 .sponsor-logo.nvidia { height: 32px; }
+.sponsor-logo.boston { height: 44px; width: 44px; }
 .brand-lockup {
   display: inline-flex;
   align-items: center;
@@ -649,7 +650,7 @@ section.block.dark .eyebrow { color: rgba(255,255,255,0.55); }
   .sponsor-row.three { grid-template-columns: repeat(3, 1fr); }
 }
 @media (max-width: 560px) {
-  .sponsor-row.three { grid-template-columns: 1fr; }
+  .sponsor-row, .sponsor-row.three { grid-template-columns: repeat(2, 1fr); }
 }
 
 .sponsor-cta {

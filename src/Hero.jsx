@@ -7,8 +7,8 @@ function Hero() {
         <div className="hero-meta-row">
           <span className="pill"><span className="dot"></span>Applications open</span>
           <span className="pill"><Calendar size={14} /> Saturday, June 13, 2026</span>
-          <span className="pill"><MapPin size={14} /> Somerville, MA</span>
-          <span className="pill"><Clock size={14} /> 09:00 — 20:30 ET</span>
+          <span className="pill"><MapPin size={14} /> Cyvl HQ · Somerville, MA</span>
+          <span className="pill"><Clock size={14} /> 9:00 AM — 7:30 PM ET</span>
         </div>
 
         <h1>
@@ -17,9 +17,10 @@ function Hero() {
         </h1>
 
         <p className="hero-sub">
-          A one-day build for engineers, designers, and researchers working at the
-          intersection of AI and the real world — LiDAR, digital twins, robotics,
-          computer vision, civic infrastructure. Hosted by Cyvl in Somerville.
+          A one-day physical AI hackathon for undergrad and grad students.
+          Build with Cyvl's data infrastructure — full digital twins of entire cities,
+          camera imagery, LiDAR, geometry data, and APIs and MCPs that let you
+          talk directly to the physical world. Hosted at Cyvl HQ in Somerville, MA.
         </p>
 
         <div className="hero-ctas">
@@ -34,12 +35,12 @@ function Hero() {
           <div className="cell">
             <div className="label">Prize pool</div>
             <div className="value">$12,000</div>
-            <div className="sub">Cash + sponsor credits</div>
+            <div className="sub">Cash prizes</div>
           </div>
           <div className="cell">
             <div className="label">Format</div>
             <div className="value">1 day · in-person</div>
-            <div className="sub">9 AM — 8:30 PM, June 13</div>
+            <div className="sub">9:00 AM — 7:30 PM, June 13</div>
           </div>
           <div className="cell">
             <div className="label">Teams</div>
@@ -49,7 +50,7 @@ function Hero() {
           <div className="cell">
             <div className="label">Stack</div>
             <div className="value">Physical AI</div>
-            <div className="sub">LiDAR · twins · vision · robotics</div>
+            <div className="sub">Digital twins · LiDAR · vision · MCPs</div>
           </div>
         </div>
       </div>
