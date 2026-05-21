@@ -1,0 +1,198 @@
+/* =========================================================
+   Cyvl Design System — Colors + Type
+   Sourced from packages/ui/src/styles/globals.css (shadcn theme)
+   ========================================================= */
+
+/* Webfonts: Cyvl uses system-default sans (no custom webfont in repo).
+   Substitute: Inter (closest match to default --font-sans, used by shadcn/Tailwind).
+   FLAGGED: confirm with brand team if Inter is acceptable, or supply licensed font. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+:root {
+  /* ---------- Brand color ---------- */
+  --cyvl-lime: #daff00;            /* Signature accent — "road sign" lime */
+  --cyvl-lime-hover: #c4e500;      /* darker on hover */
+  --cyvl-ink: #121212;             /* near-black — used for text + black-button surfaces only */
+
+  /* ---------- Foundations: light mode ---------- */
+  --background: oklch(1 0 0);                /* #ffffff */
+  --foreground: oklch(0.145 0 0);            /* near-black text */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+
+  --primary: oklch(0.205 0 0);               /* black buttons */
+  --primary-foreground: oklch(0.985 0 0);    /* white on black */
+  --secondary: hsl(0 0% 97%);                /* very light gray */
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);      /* mid-gray ~#8e8e8e */
+
+  --accent: hsl(69 100% 57%);                /* #DAFF00 — lime */
+  --accent-foreground: oklch(0.205 0 0);     /* black on lime */
+
+  --destructive: oklch(0.577 0.245 27.325);  /* red */
+  --border: hsl(0 0% 92%);                   /* #ebebeb */
+  --input: hsl(0 0% 92%);
+  --ring: hsl(0 0% 10%);
+
+  /* Charts (used in dashboards/snapshots) */
+  --chart-1: oklch(0.646 0.222 41.116);      /* warm orange */
+  --chart-2: oklch(0.6 0.118 184.704);       /* teal */
+  --chart-3: oklch(0.398 0.07 227.392);      /* deep blue */
+  --chart-4: oklch(0.828 0.189 84.429);      /* yellow-green */
+  --chart-5: oklch(0.769 0.188 70.08);       /* gold */
+
+  --sidebar: hsl(0 0% 99%);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: hsl(0 0% 93%);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: hsl(0 0% 92%);
+  --sidebar-ring: hsl(69 100% 57%);
+
+  /* ---------- Radius scale (--radius = 0.375rem) ---------- */
+  --radius: 0.375rem;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* ---------- Typography tokens ---------- */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+               Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Display / heading scale (1920×1080 hero use) */
+  --text-display-1: 80px;
+  --text-display-2: 60px;
+  --text-h1: 36px;     /* page title — Tailwind text-2xl–4xl */
+  --text-h2: 24px;
+  --text-h3: 20px;
+  --text-h4: 18px;
+
+  /* Body */
+  --text-body: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+
+  /* Weights */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Line heights */
+  --lh-tight: 1.1;
+  --lh-snug: 1.25;
+  --lh-normal: 1.5;
+  --lh-relaxed: 1.65;
+
+  /* ---------- Spacing (Tailwind 4px scale) ---------- */
+  --space-0_5: 2px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ---------- Shadows (shadcn xs/sm — minimal) ---------- */
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.06), 0 1px 3px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+
+  /* Glow used on focus pulses */
+  --glow-pulse: 0 0 0 4px rgb(218 255 0 / 0.30), 0 0 8px 2px rgb(218 255 0 / 0.15);
+}
+
+/* No dark-mode override block.
+   Cyvl's customer-facing brand is light-theme only. Developers may run a
+   dark variant internally, but it is NOT part of this brand guide. Do not
+   reintroduce a `.dark { … }` rule when generating Cyvl artifacts. */
+
+/* =========================================================
+   Semantic typography styles
+   ========================================================= */
+
+body, .ds-body {
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--lh-normal);
+  color: var(--foreground);
+  background: var(--background);
+  font-feature-settings: "cv11", "ss01";
+}
+
+.ds-display {
+  font-size: var(--text-display-1);
+  font-weight: var(--weight-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.025em;
+}
+
+.ds-h1 {
+  font-size: var(--text-h1);
+  font-weight: var(--weight-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.02em;
+}
+
+.ds-h2 {
+  font-size: var(--text-h2);
+  font-weight: var(--weight-semibold);
+  line-height: var(--lh-snug);
+  letter-spacing: -0.01em;
+}
+
+.ds-h3 {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-semibold);
+  line-height: var(--lh-snug);
+}
+
+.ds-h4 {
+  font-size: var(--text-h4);
+  font-weight: var(--weight-semibold);
+  line-height: var(--lh-snug);
+}
+
+.ds-p {
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--lh-normal);
+}
+
+.ds-small {
+  font-size: var(--text-sm);
+  color: var(--muted-foreground);
+}
+
+.ds-eyebrow {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+.ds-mono, code, kbd {
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+}
+
+a.ds-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+a.ds-link:hover { color: var(--foreground); }
