@@ -21,10 +21,7 @@ function Sponsors() {
             </div>
             <div className="sponsor">
               <div className="role">Co-sponsor</div>
-              <div className="brand-lockup">
-                <img className="brand-mark" src="https://cdn.simpleicons.org/nvidia/000000" alt="" aria-hidden="true" />
-                <span className="brand-word nvidia">NVIDIA</span>
-              </div>
+              <img className="sponsor-logo nvidia" src="assets/nvidia-logo.png" alt="NVIDIA" />
             </div>
             <div className="sponsor">
               <div className="role">Co-sponsor</div>
