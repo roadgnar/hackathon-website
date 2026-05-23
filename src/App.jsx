@@ -1,11 +1,12 @@
 function App() {
-  const { Nav, Hero, About, Prizes, Schedule, Sponsors, FAQ, CTABanner, Footer } = window;
+  const { Nav, Hero, About, WhatToBuild, Prizes, Schedule, Sponsors, FAQ, CTABanner, Footer } = window;
   return (
     <React.Fragment>
       <Nav />
       <main>
         <Hero />
         <About />
+        <WhatToBuild />
         <Prizes />
         <Schedule />
         <Sponsors />
