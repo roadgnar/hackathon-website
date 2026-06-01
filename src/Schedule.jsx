@@ -3,8 +3,9 @@ function Schedule() {
     { t: "9:00 AM",  l: "Doors open · Breakfast, onboarding & kickoff", d: "Coffee, bagels, name tags. Welcome and judging criteria.", tag: "Kickoff", accent: true },
     { t: "9:30 AM",  l: "Build time begins",                            d: "Heads down. Engineers on the floor for help.",             tag: "" },
     { t: "5:30 PM",  l: "Submissions close",                            d: "GitHub repo + one-page writeup. Hard stop.",               tag: "Hard stop", accent: true },
-    { t: "5:30 PM",  l: "Presentations begin",                          d: "Five minutes per team, two minutes Q&A.",                  tag: "" },
-    { t: "7:30 PM",  l: "Presentations end · Winners announced",        d: "First, second, third. Group photo.",                       tag: "Awards", accent: true },
+    { t: "5:30 PM",  l: "Booth presentations",                          d: "Booth style. Walk the room, demo to judges. Until 6:00 PM.", tag: "" },
+    { t: "6:15 PM",  l: "Top 5 teams selected",                         d: "Finalists present to the full room. Until ~7:00 PM.",      tag: "Finals", accent: true },
+    { t: "7:15 PM",  l: "Winners announced",                            d: "First, second, third. Group photo.",                       tag: "Awards", accent: true },
   ];
 
   return (
