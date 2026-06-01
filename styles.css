@@ -17,6 +17,10 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+/* Offset anchor jumps so sticky 68px nav doesn't cover section tops.
+   Lets shared links like /#schedule land cleanly on the heading. */
+section[id] { scroll-margin-top: 84px; }
 body {
   background: var(--paper);
   color: var(--foreground);
